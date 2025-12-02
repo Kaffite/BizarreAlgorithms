@@ -1,9 +1,7 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto";
 }
 
-body {
-}
 
 h1 {
     text-align: center;
@@ -18,25 +16,36 @@ p {
     font-size: 16px;
 }
 
+p ~ p {
+    margin-top: 0px;
+}
+
 .box {
     display: inline-block;
-    padding: 7px;
+    padding: 10px;
     border: 1px solid #1e1e1e;
+    font-weight: bold;
 }
 
 .sortBtn{
     padding: 5px;
     font-size: 20px;
+    margin-right: 10px;
 }
 
-#bogo { 
-
+.sortBtn:hover{
+    background-color: #e23111;
 }
+
+.arrSortedBtn:hover{
+    background-color: green;
+}
+
 
 .center {
     display: flex;
     flex-direction: column;
-    background-color: rgb(126, 169, 243);
+    background-color:lightblue;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
